@@ -1,3 +1,4 @@
+!pip install -U langchain langchain-community langchain-openai faiss-cpu sentence-transformers gradio PyMuPDF --quiet
 import os
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
